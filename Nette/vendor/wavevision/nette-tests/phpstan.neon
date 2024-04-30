@@ -1,0 +1,6 @@
+parameters:
+	level: max
+	tmpDir: %currentWorkingDirectory%/temp
+	earlyTerminatingMethodCalls:
+		Wavevision\NetteTests\TestCases\PresenterTestCase:
+			- failWithInvalidResponseType

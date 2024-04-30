@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="php@ffc29f68-40b9-4bd5-b8d9-17dc818c6fa5">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/wp-content/plugins/testovani" remote-root="/var/www/html/wp-content/plugins/testovani" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

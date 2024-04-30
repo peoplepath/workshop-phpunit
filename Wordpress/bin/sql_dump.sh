@@ -1,0 +1,1 @@
+docker exec -it mysql mysqldump -uroot -proot wordpress --result-file=/var/dump/wordpress.sql

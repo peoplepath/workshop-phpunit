@@ -1,0 +1,13 @@
+application:
+	mapping:
+		*:  Wavevision\NetteTests\TestApp\*Module\Presenters\*Presenter
+
+
+session:
+	expiration: 14 days
+	autoStart: true
+
+
+services:
+	router: Wavevision\NetteTests\TestApp\Router\RouterFactory::createRouter
+	- Wavevision\NetteTests\TestApp\Models\ExampleModel

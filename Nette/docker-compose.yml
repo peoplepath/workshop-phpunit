@@ -1,0 +1,13 @@
+services:
+  php:
+    build: .
+    container_name: web
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html
+      - ./:/var/www
+    restart: always
+    working_dir: /var/www
+    environment:
+      PHP_IDE_CONFIG: ${PHP_IDE_CONFIG:-serverName=localhost}

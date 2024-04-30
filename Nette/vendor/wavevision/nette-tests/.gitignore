@@ -1,0 +1,7 @@
+/.idea
+/!.idea/codeStyles/codeStyleConfig.xml
+/!.idea/codeStyles/Project.xml
+/vendor
+/temp
+test-output-files/
+/.phpunit.result.cache

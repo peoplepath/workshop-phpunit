@@ -1,0 +1,1 @@
+docker exec -it web ./vendor/bin/phpcs src tests index.php --standard=phpcs.xml --extensions=php --encoding=utf-8 --tab-width=4 --ignore=vendor

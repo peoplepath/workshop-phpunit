@@ -1,0 +1,62 @@
+{
+  "name": "wavevision/nette-tests",
+  "description": "PHPUnit extension for testing Nette applications.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Wavevision s.r.o.",
+      "email": "info@wavevision.com"
+    },
+    {
+      "name": "Jakub Filla",
+      "email": "jakub.filla@wavevision.cz"
+    },
+    {
+      "name": "Vít Rozsíval",
+      "email": "vit@wavevision.com"
+    }
+  ],
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Wavevision\\NetteTests\\": "src/NetteTests/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wavevision\\NetteTests\\TestApp\\": "tests/app/src/",
+      "Wavevision\\NetteTests\\TestAppTests\\": "tests/app/tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-fileinfo": "*",
+    "latte/latte": "^2.10",
+    "nepada/presenter-mapping": "^2.3",
+    "nette/application": "^3.1",
+    "nette/bootstrap": "^3.1",
+    "nette/caching": "^3.1",
+    "nette/di": "^3.0",
+    "nette/finder": "^2.5",
+    "nette/forms": "^3.1",
+    "nette/http": "^3.1",
+    "nette/utils": "^3.2",
+    "phpunit/phpunit": "^9.3",
+    "tracy/tracy": "^2.6",
+    "wavevision/utils": "^2.2"
+  },
+  "require-dev": {
+    "php-coveralls/php-coveralls": "^2.1",
+    "phpstan/extension-installer": "^1.0",
+    "phpstan/phpstan-nette": "^0.12",
+    "phpstan/phpstan-phpunit": "^0.12",
+    "wavevision/coding-standard": "^6.0",
+    "wavevision/di-service-annotation": "^4.0"
+  },
+  "extra": {
+    "phpstan": {}
+  }
+}

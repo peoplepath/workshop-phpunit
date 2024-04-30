@@ -1,0 +1,19 @@
+{
+    "name": "jiris/testovani",
+    "type": "plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Testovani\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stepina",
+            "email": "jiri.stepina@gmail.com"
+        }
+    ],
+    "require": {}
+}

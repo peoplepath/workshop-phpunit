@@ -1,0 +1,1 @@
+docker exec -it web ./vendor/bin/phpunit tests

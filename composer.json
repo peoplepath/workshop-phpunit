@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "name": "root/html",
+    "type": "project",
+    "require": {
+        "php": "^8.3",
+      "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jiri Stepina"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "slevomat/coding-standard": "^8.15",
+        "phpstan/phpstan": "^1.10",
+        "dg/bypass-finals": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
